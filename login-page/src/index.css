@@ -77,6 +77,11 @@ button:focus-visible {
   right: 20px;
   padding: 8px 16px;
   cursor: pointer;
+  background-color:red;
+  
+}
+#logout-btn:hover{
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
 }
 .form {
   background: white;
@@ -162,7 +167,7 @@ button:focus-visible {
   background:  linear-gradient(to right,#3fd8ff,#ff2fd0);
 }
 
-.light {
+/* .light {
   background-color: white;
   color: black;
 }
@@ -170,5 +175,5 @@ button:focus-visible {
 .dark {
   background-color: #121212;
   color: white;
-}
+} */
 
